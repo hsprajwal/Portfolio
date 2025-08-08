@@ -27,9 +27,9 @@ const Hero = ({ portfolioData }) => {
             
             <div className="max-w-2xl mx-auto">
               <p className="text-lg text-gray-600 leading-relaxed">
-                Final year Computer Science student passionate about building innovative solutions
-                through full-stack development and cybersecurity. Ready to contribute to impactful projects
-                and grow in the tech industry.
+                Final year Computer Science student aspiring to become a Software Development Engineer.
+                Passionate about building robust, scalable, and secure software systems that solve real-world problems
+                through full-stack development, cloud computing, and cybersecurity practices.
               </p>
             </div>
           </div>
