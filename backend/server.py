@@ -7,6 +7,7 @@ import logging
 from pathlib import Path
 from models import ContactMessage, ContactMessageCreate, ContactMessageResponse
 from typing import List
+from datetime import datetime
 
 ROOT_DIR = Path(__file__).parent
 load_dotenv(ROOT_DIR / '.env')
