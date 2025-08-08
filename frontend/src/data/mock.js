@@ -18,7 +18,7 @@ export const portfolioData = {
       closing: "I aspire to be at the intersection of development, security, and cloud innovation—building systems that not only perform flawlessly but stand resilient in a dynamic digital landscape."
     },
     location: "Bangalore, India",
-    email: "contact@prajwalhs.dev",
+    email: "prajwal9066015098@gmail.com",
     phone: "8088783232",
     linkedin: "https://www.linkedin.com/in/prajwalhs32/",
     github: "https://github.com/hsprajwal",
