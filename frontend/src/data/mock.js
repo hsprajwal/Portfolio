@@ -6,15 +6,16 @@ export const portfolioData = {
     subtitle: "Aspiring Software Development Engineer | Full-Stack Developer",
     bio: "Computer Science engineering student with practical knowledge of programming in Java, Python, C, and working with SQL databases. Completed academic projects involving web development and basic database connectivity. Familiar with cloud platforms like AWS and GCP, and cybersecurity fundamentals through online training. Eager to learn and contribute to real-world software development tasks.",
     careerGoals: {
-      overview: "As an aspiring Software Development Engineer (SDE) and Full-Stack Developer, my goal is to build robust, scalable, and secure software systems that solve real-world problems. I am passionate about designing seamless user experiences, developing efficient backend architectures, and deploying cloud-native applications.",
-      interests: "I am also deeply interested in Cloud Computing and Cybersecurity, aiming to bridge the gap between development and infrastructure with secure DevOps practices. I strive to work on systems that are not only performant and user-friendly but also reliable, scalable, and resilient against evolving threats.",
+      overview: "As an aspiring Software Development Engineer (SDE) and Full-Stack Developer, I am driven by the mission to architect robust, scalable, and secure digital solutions that address real-world challenges. My passion lies in crafting seamless user experiences, engineering efficient backend systems, and deploying innovative, cloud-native applications.",
+      interests: "With a keen interest in Cloud Computing and Cybersecurity, I strive to merge development and infrastructure through secure DevOps methodologies—ensuring that every system is not only highly performant and user-centric but also resilient and fortified against evolving threats. I'm especially fascinated by building applications that leverage the synergy between cloud platforms and modern security practices, aiming to deliver technology that endures and adapts.",
       focusAreas: [
-        "Building end-to-end web applications with modern tech stacks",
-        "Gaining deep expertise in cloud platforms like AWS, Azure, or GCP",
-        "Strengthening skills in application and network security",
-        "Following clean code principles, agile methodologies, and DevSecOps practices",
-        "Contributing to open-source or impactful real-world tech initiatives"
-      ]
+        "Designing and engineering full-stack web applications using cutting-edge frameworks and technologies",
+        "Deepening expertise in cloud ecosystems including AWS, Azure, and GCP, with a vision to deliver globally scalable and reliable solutions",
+        "Embedding security at every stage—application and network layer—to create trustworthy and robust digital products",
+        "Embracing clean code principles, agile practices, and DevSecOps for efficient, collaborative, and secure development lifecycles",
+        "Contributing to open-source projects and real-world tech initiatives that create meaningful social and technological impact"
+      ],
+      closing: "I aspire to be at the intersection of development, security, and cloud innovation—building systems that not only perform flawlessly but stand resilient in a dynamic digital landscape."
     },
     location: "Bangalore, India",
     email: "contact@prajwalhs.dev",
