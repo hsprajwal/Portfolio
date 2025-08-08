@@ -82,7 +82,7 @@ export const portfolioData = {
       tools: "XAMPP, Apache Server",
       github: "https://github.com/hsprajwal/SUPPLY-CHAIN-MANAGEMENT-FOOD-BEVERAGES",
       liveDemo: "#",
-      image: "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=600&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1585155113372-6c1808141bf3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwxfHxzdWdhcmNhbmV8ZW58MHx8fHwxNzU0NjYwNDA2fDA&ixlib=rb-4.1.0&q=85",
       category: "Full-Stack"
     },
     {
