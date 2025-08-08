@@ -26,10 +26,31 @@ const About = ({ portfolioData }) => {
                 leveraging technology to solve real-world problems. My experience spans across web development, 
                 cybersecurity, and computer vision, with a keen interest in building scalable and secure applications.
               </p>
-              <p>
-                I believe in continuous learning and staying updated with the latest technologies. 
-                My goal is to contribute to innovative projects while growing as a well-rounded software engineer.
-              </p>
+            </div>
+
+            {/* Career Goals Section */}
+            <div className="space-y-6 bg-gray-50 p-6 rounded-lg border">
+              <h3 className="text-2xl font-semibold text-gray-900">🎯 Career Goals</h3>
+              <div className="space-y-4">
+                <p className="text-gray-600 leading-relaxed">
+                  {portfolioData.personal.careerGoals.overview}
+                </p>
+                <p className="text-gray-600 leading-relaxed">
+                  {portfolioData.personal.careerGoals.interests}
+                </p>
+                
+                <div className="space-y-3">
+                  <h4 className="text-lg font-medium text-gray-800">🚀 Key Focus Areas:</h4>
+                  <ul className="space-y-2">
+                    {portfolioData.personal.careerGoals.focusAreas.map((area, index) => (
+                      <li key={index} className="flex items-start space-x-3">
+                        <div className="w-2 h-2 bg-gray-900 rounded-full mt-2 flex-shrink-0"></div>
+                        <span className="text-gray-600">{area}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
             </div>
 
             {/* Education Card */}
