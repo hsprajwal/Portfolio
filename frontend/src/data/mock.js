@@ -3,8 +3,19 @@ export const portfolioData = {
   personal: {
     name: "Prajwal H S",
     title: "Computer Science Engineering Student",
-    subtitle: "Full-Stack Developer | Cybersecurity Enthusiast",
+    subtitle: "Aspiring Software Development Engineer | Full-Stack Developer",
     bio: "Computer Science engineering student with practical knowledge of programming in Java, Python, C, and working with SQL databases. Completed academic projects involving web development and basic database connectivity. Familiar with cloud platforms like AWS and GCP, and cybersecurity fundamentals through online training. Eager to learn and contribute to real-world software development tasks.",
+    careerGoals: {
+      overview: "As an aspiring Software Development Engineer (SDE) and Full-Stack Developer, my goal is to build robust, scalable, and secure software systems that solve real-world problems. I am passionate about designing seamless user experiences, developing efficient backend architectures, and deploying cloud-native applications.",
+      interests: "I am also deeply interested in Cloud Computing and Cybersecurity, aiming to bridge the gap between development and infrastructure with secure DevOps practices. I strive to work on systems that are not only performant and user-friendly but also reliable, scalable, and resilient against evolving threats.",
+      focusAreas: [
+        "Building end-to-end web applications with modern tech stacks",
+        "Gaining deep expertise in cloud platforms like AWS, Azure, or GCP",
+        "Strengthening skills in application and network security",
+        "Following clean code principles, agile methodologies, and DevSecOps practices",
+        "Contributing to open-source or impactful real-world tech initiatives"
+      ]
+    },
     location: "Bangalore, India",
     email: "contact@prajwalhs.dev",
     phone: "8088783232",
