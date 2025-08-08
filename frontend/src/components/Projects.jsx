@@ -7,7 +7,7 @@ import { Github, ExternalLink, Eye, Code2, Database } from 'lucide-react';
 const Projects = ({ portfolioData }) => {
   const [selectedCategory, setSelectedCategory] = useState('All');
   
-  const categories = ['All', 'Full-Stack', 'Computer Vision', 'Game Development'];
+  const categories = ['All', 'Full-Stack', 'Computer Vision'];
   
   const filteredProjects = selectedCategory === 'All' 
     ? portfolioData.projects 
