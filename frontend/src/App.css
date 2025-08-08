@@ -1,3 +1,5 @@
+/* Custom styles for the portfolio */
+
 .App-logo {
     height: 40vmin;
     pointer-events: none;
@@ -30,5 +32,156 @@
     }
     to {
         transform: rotate(360deg);
+    }
+}
+
+/* Custom Portfolio Styles */
+html {
+    scroll-behavior: smooth;
+}
+
+.line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* Smooth transitions for all interactive elements */
+* {
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+}
+
+/* Focus states for accessibility */
+button:focus,
+input:focus,
+textarea:focus,
+select:focus,
+a:focus {
+    outline: 2px solid #3b82f6;
+    outline-offset: 2px;
+}
+
+/* Hover effects for cards */
+.group:hover {
+    transform: translateY(-2px);
+}
+
+/* Animation for entrance */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fadeInUp {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+/* Loading animation */
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+.animate-pulse {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Gradient text effect */
+.gradient-text {
+    background: linear-gradient(45deg, #1f2937, #4b5563);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Custom button hover effects */
+.btn-hover-lift:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Image overlay effect */
+.image-overlay {
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.3) 100%);
+}
+
+/* Typography improvements */
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: -0.025em;
+}
+
+/* Large text improvements */
+.text-5xl, .text-6xl, .text-7xl {
+    font-weight: 300;
+    letter-spacing: -0.02em;
+}
+
+/* Professional spacing */
+.section-padding {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+/* Card hover effects */
+.card-hover:hover {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    transform: translateY(-4px);
+}
+
+/* Professional color scheme variables */
+:root {
+    --color-primary: #1f2937;
+    --color-secondary: #4b5563;
+    --color-accent: #3b82f6;
+    --color-muted: #6b7280;
+    --color-light: #f8fafc;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+    .section-padding {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
     }
 }
