@@ -105,21 +105,25 @@ export const portfolioData = {
     },
     {
       id: 3,
-      title: "Interactive Gaming Suite",
-      subtitle: "Console-based Game Development",
-      description: "Collection of classic interactive games developed in Python and Java, demonstrating programming fundamentals, game logic implementation, and user interaction design.",
+      title: "E-Commerce Supply Chain Platform",
+      subtitle: "End-to-End Supply Chain Management System",
+      description: "A comprehensive e-commerce supply chain management platform designed to optimize logistics, inventory management, and order fulfillment processes. Built to handle complex supply chain operations with real-time tracking, vendor management, and automated reporting capabilities.",
       features: [
-        "Blackjack Game - Complete card game with betting system",
-        "Rock Paper Scissors - Interactive console game with score tracking",
-        "Tic Tac Toe - Two-player strategy game with win detection",
-        "Clean console interface with input validation"
+        "Multi-vendor marketplace with integrated supplier onboarding",
+        "Real-time inventory tracking and automated stock replenishment",
+        "Order processing and fulfillment workflow management",
+        "Advanced analytics dashboard for supply chain optimization",
+        "Payment integration and financial reporting modules"
       ],
-      techStack: ["Python", "Java"],
-      concepts: "Game Logic, Object-Oriented Programming, User Input Handling",
-      github: "https://github.com/hsprajwal/gaming-suite",
+      techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "REST APIs"],
+      frontend: "React.js, HTML5, CSS3, JavaScript",
+      backend: "Node.js, Express.js",
+      database: "MongoDB",
+      concepts: "Supply Chain Optimization, E-commerce Architecture, API Integration",
+      github: "https://github.com/hsprajwal/SUPPLY-CHAIN-MANAGEMENT-FOOD-BEVERAGES",
       liveDemo: "#",
-      image: "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=600&h=400&fit=crop",
-      category: "Game Development"
+      image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600&h=400&fit=crop",
+      category: "Full-Stack"
     }
   ],
 
