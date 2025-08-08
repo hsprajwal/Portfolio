@@ -40,7 +40,7 @@ const About = ({ portfolioData }) => {
                 </p>
                 
                 <div className="space-y-3">
-                  <h4 className="text-lg font-medium text-gray-800">🚀 Key Focus Areas:</h4>
+                  <h4 className="text-lg font-medium text-gray-800">🌟 Key Focus Areas:</h4>
                   <ul className="space-y-2">
                     {portfolioData.personal.careerGoals.focusAreas.map((area, index) => (
                       <li key={index} className="flex items-start space-x-3">
@@ -49,6 +49,12 @@ const About = ({ portfolioData }) => {
                       </li>
                     ))}
                   </ul>
+                </div>
+                
+                <div className="border-t border-gray-200 pt-4">
+                  <p className="text-gray-700 leading-relaxed font-medium italic">
+                    {portfolioData.personal.careerGoals.closing}
+                  </p>
                 </div>
               </div>
             </div>
